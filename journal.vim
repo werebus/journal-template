@@ -1,0 +1,12 @@
+setlocal spell
+setlocal formatoptions=ant
+setlocal textwidth=72
+setlocal wrapmargin=0
+setlocal noautoindent
+setlocal nocindent
+setlocal nosmartindent
+setlocal indentexpr=
+setlocal foldcolumn=10
+setlocal columns=82
+setlocal nonumber
+setlocal colorcolumn=72
