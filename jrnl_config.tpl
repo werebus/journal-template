@@ -1,8 +1,8 @@
 {
   "journals": {
-    "default": "journal.txt"
+    "default": "${dir}/journal.txt"
   },
-  "editor": "vim -S journal.vim",
+  "editor": "vim -S ${dir}/journal.vim",
   "encrypt": false,
   "default_hour": 9,
   "default_minute": 0,
