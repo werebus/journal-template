@@ -1,0 +1,10 @@
+#!/bin/bash
+set -e -u
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+vim -S $DIR/journal.vim $1
+
+git -C $DIR add '*.txt'
+git -C $DIR commit -m "$(date -Iminutes)"
+git --git-dir=$DIR/.git push --quiet
